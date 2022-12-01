@@ -29,6 +29,10 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
+        ios: {
+          'apple-touch-icon': "JATE",
+          'apple-mobile-web-app-capable': true
+        },
         name: 'PWA-Text-Editor',
         short_name: 'Edit',
         description: 'Simple Text-Editor',
