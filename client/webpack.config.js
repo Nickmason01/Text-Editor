@@ -23,6 +23,7 @@ module.exports = () => {
       new InjectManifest({
         swSrc:'./src-sw.js',
         swDest: 'src-sw.js',
+        
       }),
 
       new WebpackPwaManifest({
@@ -33,15 +34,15 @@ module.exports = () => {
         description: 'Simple Text-Editor',
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: '/',
-        publicPath: '/',
+        start_url: './',
+        publicPath: './',
         crossorigin:'use-credentials',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
-            purpose: 'maskable'
+            purpose: 'any'
           },
         ],
       }),
