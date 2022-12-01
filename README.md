@@ -17,6 +17,9 @@ application can be accessed at https://txteditor-123.herokuapp.com/ Once opened 
 ## Usage
 This application supplies the user with a simple text editor that can store notes into a database and be used offline if need be 
 
+![image](https://user-images.githubusercontent.com/108901623/205175438-5fad111c-f80b-4fc1-9d1c-d3ddce44f2a3.png)
+
+
 ## Credits
 Nick Mason
 
